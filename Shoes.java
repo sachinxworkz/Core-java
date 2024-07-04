@@ -1,12 +1,14 @@
 class Shoes{
+    
+static String brandname = "Comet" ;
+Static int brandsize = 7 ;
+static String brandcolour = "White";
+static int price = 1299 ;
+static int brandId = 56110455 ;
+static String type = "Sports" ;
 
 public static void main(String shoesbrand[]){
-String brandname = "Comet" ;
-String brandsize = "7" ;
-String brandcolour = "White";
-int price = 1299 ;
-int brandId = 56110455 ;
-String type = "Sports" ;
+
 System.out.println("Shoes BrandName is" + brandname) ;
 System.out.println("Shoes BrandSize is" + brandsize) ;
 System.out.println("Shoes BrandColour is" + brandcolour) ;
