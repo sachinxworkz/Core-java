@@ -1,9 +1,9 @@
-class Speaker {
-    static String brand = "JBL";
-    static String model = "Flip 5";
-    static double price = 119.95;
-    static String color = "Blue";
-    static String type = "Bluetooth";
+class ElectricToothbrush {
+    static String brand = "Oral-B";
+    static String model = "Pro 1000";
+    static double price = 49.99;
+    static String color = "White";
+    static String type = "Rechargeable";
 
     public static void main(String[] args) {
         System.out.println("Brand: " + brand);

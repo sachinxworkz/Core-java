@@ -1,15 +1,15 @@
-class Speaker {
-    static String brand = "JBL";
-    static String model = "Flip 5";
-    static double price = 119.95;
+class VacuumCleaner {
+    static String brand = "Dyson";
+    static String model = "V11 Torque Drive";
+    static double price = 699.99;
+    static String type = "Cordless";
     static String color = "Blue";
-    static String type = "Bluetooth";
 
     public static void main(String[] args) {
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);
         System.out.println("Price: $" + price);
-        System.out.println("Color: " + color);
         System.out.println("Type: " + type);
+        System.out.println("Color: " + color);
     }
 }

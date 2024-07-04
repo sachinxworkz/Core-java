@@ -1,17 +1,15 @@
-class Camera{
+class Camera {
+    static String brand = "Canon";
+    static String model = "EOS R5";
+    static double price = 3899.00;
+    static String type = "Mirrorless";
+    static int resolution = 45;
 
-public static void main(String Camerabrand[]){
-String brandname = "Canon" ;
-String brandsize = "22.3" ;
-String brandcolour = "Black";
-int price = 52990 ;
-int weight = 122 ;
-String type = "DSLR" ;
-System.out.println("Camera BrandName is" + brandname) ;
-System.out.println("Camera BrandSize is" + brandsize) ;
-System.out.println("Camera BrandColour is" + brandcolour) ;
-System.out.println("Camera BrandPrice is" + price) ;
-System.out.println("Camera weight is" + weight) ;
-System.out.println("Camera Type is" + type) ;
-}
+    public static void main(String[] args) {
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Price: $" + price);
+        System.out.println("Type: " + type);
+        System.out.println("Resolution: " + resolution + " MP");
+    }
 }

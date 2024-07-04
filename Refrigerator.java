@@ -1,19 +1,15 @@
-class Refrigerator{
-	public static void main(String[] refrigerator){
-		System.out.println("Start of Main");
-		
-		String brand = "Samsung";
-		int price = 43000;
-		int capacity = 363;
-		String configuration = "Freezer-on-Top";
-		int energyStar = 3;
+class Refrigerator {
+    static String brand = "Samsung";
+    static String model = "RF28R7351SG";
+    static double price = 2999.99;
+    static String color = "Black Stainless Steel";
+    static String type = "French Door";
 
-		System.out.println("The Brand of Refrigerator is "+brand);
-		System.out.println("The Price is "+price);
-		System.out.println("The capacity is "+capacity+" liters");
-		System.out.println("The configuration of the refrigerator is "+configuration);
-		System.out.println("The Energy Star is "+energyStar);
-		
-		System.out.println("End of Main");
-	}
+    public static void main(String[] args) {
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Price: $" + price);
+        System.out.println("Color: " + color);
+        System.out.println("Type: " + type);
+    }
 }

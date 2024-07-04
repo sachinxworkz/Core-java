@@ -1,9 +1,9 @@
-class Speaker {
-    static String brand = "JBL";
-    static String model = "Flip 5";
-    static double price = 119.95;
-    static String color = "Blue";
-    static String type = "Bluetooth";
+class Headphones {
+    static String brand = "Sony";
+    static String model = "WH-1000XM4";
+    static double price = 348.00;
+    static String color = "Black";
+    static String type = "Over-Ear";
 
     public static void main(String[] args) {
         System.out.println("Brand: " + brand);
