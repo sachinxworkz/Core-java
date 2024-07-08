@@ -1,12 +1,12 @@
-class CameraRunner{
+class TVRunner{
 	
 	public static void main(String[] tester){
 		System.out.println("Start of main method");
 		
-		Camera.turnOn();
-		Camera.turnOff();
-		Camera.turnOn();
-		Camera.turnOff();
+		TV.turnOn();
+		TV.turnOff();
+		TV.turnOn();
+		TV.turnOff();
 		
 		System.out.println("End of main method");
 	}
