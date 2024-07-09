@@ -3,10 +3,18 @@ class CameraRunner{
 	public static void main(String[] tester){
 		System.out.println("Start of main method");
 		
-		Camera.turnOn();
-		Camera.turnOff();
-		Camera.turnOn();
-		Camera.turnOff();
+		boolean work = Camera.onOrOff();
+		System.out.println("is Camera on : "+work);
+	
+		work =Camera.onOrOff();
+		System.out.println("is Camera on : "+work);
+		
+		work = Camera.onOrOff();
+		System.out.println("is Camera on : "+work);
+		
+		work =	Camera.onOrOff();
+		System.out.println("is Camera on : "+work);
+		
 		
 		System.out.println("End of main method");
 	}
