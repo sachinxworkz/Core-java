@@ -5,15 +5,30 @@ class TVRunner{
 		
 		boolean connect = TV.onOrOff();
 		System.out.println("is tv on : "+connect);
+		
+		TV.increaseVolume();
+		TV.increaseVolume();
+		TV.increaseVolume();
+		TV.increaseVolume();
+		TV.increaseVolume();
+		TV.increaseVolume();
+		TV.increaseVolume();
+		TV.increaseVolume();
+		
+		TV.decreaseVolume();
+		TV.decreaseVolume();
+		TV.decreaseVolume();
+		TV.decreaseVolume();
+		TV.decreaseVolume();
+		TV.decreaseVolume();
+		TV.decreaseVolume();
+		TV.decreaseVolume();
 	
 		connect =TV.onOrOff();
 		System.out.println("is tv on : "+connect);
 		
-		connect = TV.onOrOff();
-		System.out.println("is tv on : "+connect);
-		
-		connect =	TV.onOrOff();
-		System.out.println("is tv on : "+connect);
+		TV.increaseVolume();
+		TV.decreaseVolume();
 		
 		System.out.println("End of main method");
 	}

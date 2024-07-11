@@ -6,14 +6,27 @@ class CameraRunner{
 		boolean work = Camera.onOrOff();
 		System.out.println("is Camera on : "+work);
 	
+		Camera.increaseZoom();
+		Camera.increaseZoom();
+		Camera.increaseZoom();
+		Camera.increaseZoom();
+		Camera.increaseZoom();
+		Camera.increaseZoom();
+		
+		Camera.decreaseZoom();
+		Camera.decreaseZoom();
+		Camera.decreaseZoom();
+		Camera.decreaseZoom();
+		Camera.decreaseZoom();
+		Camera.decreaseZoom();
+		
+		
 		work =Camera.onOrOff();
 		System.out.println("is Camera on : "+work);
 		
-		work = Camera.onOrOff();
-		System.out.println("is Camera on : "+work);
+		Camera.increaseZoom();
 		
-		work =	Camera.onOrOff();
-		System.out.println("is Camera on : "+work);
+		Camera.decreaseZoom();
 		
 		
 		System.out.println("End of main method");
