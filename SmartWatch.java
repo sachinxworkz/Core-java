@@ -9,13 +9,17 @@ class SmartWatch{
 		
 		System.out.println("Start of turnOn method");
 		
-		if(isSmartWatchOn == false){
+     isSmartWatchOn = (isSmartWatchOn == false)? true : false;
+	 
+
+
+		/*if(isSmartWatchOn == false){
 			isSmartWatchOn = true;
 			
 		}else if(isSmartWatchOn == true){
 			isSmartWatchOn = false;
 		
-		}
+		}*/
 		System.out.println("End of turnOn method");
 	return isSmartWatchOn;
 	}

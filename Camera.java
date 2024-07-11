@@ -9,8 +9,9 @@ class Camera{
 		
 		System.out.println("Start of onOrOff method");
 		
-		if(!isDisplayOn)	isDisplayOn = true;
-		else	isDisplayOn = false;
+		isDisplayOn = (isDisplayOn== false)? true : false;
+		/*if(!isDisplayOn)	isDisplayOn = true;
+		else	isDisplayOn = false;*/
 		
 		System.out.println("End of onOrOff method");
 	return isDisplayOn;

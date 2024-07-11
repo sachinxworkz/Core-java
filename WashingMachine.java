@@ -9,13 +9,15 @@ class WashingMachine{
 		
 		System.out.println("Start of turnOn method");
 		
-		if(isWashingMachineOn == false){
+     isWashingMachineOn = (isWashingMachineOn == false)? true : false;
+
+		/*if(isWashingMachineOn == false){
 			isWashingMachineOn = true;
 			
 		}else if(isWashingMachineOn == true){
 			isWashingMachineOn = false;
 			
-		}
+		}*/
 		System.out.println("End of turnOn method");
 	return isWashingMachineOn;
 	}

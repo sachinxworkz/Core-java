@@ -9,13 +9,16 @@ class Refrigerator{
 		
 		System.out.println("Start of turnOn method");
 		
-		if(isRefrigeratorOn == false){
+       isRefrigeratorOn =(isRefrigeratorOn== false)? true : false;
+	   
+
+		/*if(isRefrigeratorOn == false){
 			isRefrigeratorOn = true;
 			
 		}else if(isRefrigeratorOn == true){
 			isRefrigeratorOn = false;
 			
-		}
+		}*/
 		System.out.println("End of turnOn method");
 	return isRefrigeratorOn;
 	}

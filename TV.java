@@ -9,14 +9,14 @@ class TV{
 		
 		System.out.println("Start of onOrOff method");
 		
-		/*ref = condition ? value1: value2 ;
+		/*ref = condition ? value1: value2 ;*/
 
-		isDisplayOn = (isDisplayOn == false) ? true : false ;*/
+		isDisplayOn = (isDisplayOn == false) ? true : false ;
 
 
 
-		if(!isDisplayOn)	isDisplayOn = true;
-		else	isDisplayOn = false;
+		/*if(!isDisplayOn)	isDisplayOn = true;
+		else	isDisplayOn = false;*/
 		
 		System.out.println("End of onOrOff method");
 	return isDisplayOn;

@@ -9,13 +9,15 @@ class Mobile{
 		
 		System.out.println("Start of turnOn method");
 		
-		if(isMobileOn == false){
+        isMobileOn = (isMobileOn == false)? true : false;
+
+		/*if(isMobileOn == false){
 			isMobileOn = true;
 		
 		}else if(isMobileOn == true){
 			isMobileOn = false;
 			
-		}
+		}*/
 		System.out.println("End of turnOn method");
 	return isMobileOn;
 	}	
