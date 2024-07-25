@@ -1,41 +1,45 @@
 class MRPStoreRunner{
  public static void main(String[] items){
  
-   boolean addedProduct = MRPStore.addAlcoholName("King Fisher");
+   MRPStore.addAlcoholName("Blenders Pride");
     
    
-   addedProduct = MRPStore.addAlcoholName("Vodka");
+   MRPStore.addAlcoholName("IB");
     
    
-   addedProduct = MRPStore.addAlcoholName("Cider");
+   MRPStore.addAlcoholName("Royal Stag");
     
    
-   addedProduct = MRPStore.addAlcoholName("Old Monk");
+   MRPStore.addAlcoholName("Old Monk");
     
    
-   addedProduct = MRPStore.addAlcoholName("Magic Moment");
+   MRPStore.addAlcoholName("Grey Moose");
     
    
-   addedProduct = MRPStore.addAlcoholName("Budwiser");
+   MRPStore.addAlcoholName("Budwiser");
     
    
-   addedProduct = MRPStore.addAlcoholName("Gin");
+   MRPStore.addAlcoholName("Pure Tonic");
     
    
-   addedProduct = MRPStore.addAlcoholName("Tequila");
+   MRPStore.addAlcoholName("Aggermister");
     
    
-   addedProduct = MRPStore.addAlcoholName("Batti sarayi");
+   MRPStore.addAlcoholName("Bombay Supire");
     
    
-   addedProduct = MRPStore.addAlcoholName("Ballitine");
+   MRPStore.addAlcoholName("Ballitine");
     
    
-   addedProduct = MRPStore.addAlcoholName("LIT");
+   MRPStore.addAlcoholName("LIT");
     
+   MRPStore.getAlcoholNames();
    
-  
-
+   MRPStore.updateAlcoholName("OMR", "Ballitine");
+   
+   MRPStore.getAlcoholNames();
+   
+   MRPStore.deleteAlcoholName("LIT");
    
    MRPStore.getAlcoholNames();
  

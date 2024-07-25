@@ -1,34 +1,36 @@
 class MedicalStoreRunner{
 	public static void main(String[] items){
  
-		boolean addedProduct = MedicalStore.addProductName("Ibuprofen");
+		MedicalStore.addProductName("Ibuprofen");
     
-		   addedProduct = MedicalStore.addProductName("Paracetamol");
+		MedicalStore.addProductName("Paracetamol");
 			
-		   addedProduct = MedicalStore.addProductName("Aspirin");
+		MedicalStore.addProductName("Aspirin");
 			
-		   addedProduct = MedicalStore.addProductName("Amoxicillin");
+		MedicalStore.addProductName("Amoxicillin");
 		   
-		   addedProduct = MedicalStore.addProductName("Ciprofloxacin");
+		MedicalStore.addProductName("Ciprofloxacin");
 			
-		   addedProduct = MedicalStore.addProductName("Metformin");
+		MedicalStore.addProductName("Metformin");
 			
-		   addedProduct = MedicalStore.addProductName("Lisinopril");
+		MedicalStore.addProductName("Lisinopril");
 			
-		   addedProduct = MedicalStore.addProductName("Atorvastatin");
+		MedicalStore.addProductName("Atorvastatin");
 			
-		   addedProduct = MedicalStore.addProductName("Omeprazole");
+		MedicalStore.addProductName("Omeprazole");
 			
-		   addedProduct = MedicalStore.addProductName("Diphenhydramine");
+		MedicalStore.addProductName("Diphenhydramine");
 			
-		   addedProduct = MedicalStore.addProductName("Diphenhydramine");
-    
+		MedicalStore.addProductName("Diphenhydramine");
    
-   
-  
-   
-   
-   
+		MedicalStore.showProductNames();
+		
+		MedicalStore.updateProductName("telimed-H", "Omeprazole");
+		
+		MedicalStore.showProductNames();
+		
+		MedicalStore.deleteProductName("Diphenhydramine");
+		
 		MedicalStore.showProductNames();
  
 	}

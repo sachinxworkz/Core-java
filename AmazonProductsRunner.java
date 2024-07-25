@@ -1,41 +1,39 @@
-class AmazonProductsRunner{
+class AmazonProductRunner{
 	
-	public static void main(String[] product){
+	public static void main(String[] item){
 		System.out.println("Main started");
 	
-		boolean productAdded = AmazonProducts.addProductName("Iphone 13");
-		System.out.println("Product name added");
-
-         productAdded = AmazonProducts.addProductName("Airpodes");
-		System.out.println("Product name added");
-
-        productAdded = AmazonProducts.addProductName("Macbook Air");
-		System.out.println("Product name added");
-
-        productAdded =AmazonProducts.addProductName("Nothing 2a");
-		System.out.println("Product name added");
-
-        productAdded = AmazonProducts.addProductName("SmartWatch");
-		System.out.println("JProduct name added");
-
-        productAdded = AmazonProducts.addProductName("Charger");
-		System.out.println("Product name added");
-
-        productAdded = AmazonProducts.addProductName("Clothes");
-		System.out.println("Product name added");
-
-        productAdded = AmazonProducts.addProductName("Camera");
-		System.out.println("Product name added");
-
-        productAdded = AmazonProducts.addProductName("Speaker");
-		System.out.println("Product name added");
-
-        productAdded = AmazonProducts.addProductName("Books");
-		System.out.println("Product name added");
-
-        
+		Amazon.addProductName("laptop");
+		 
+		Amazon.addProductName("smartwatches");
+		 
+		Amazon.addProductName("headphones");
+		 
+		Amazon.addProductName("cameras");
+		 
+		Amazon.addProductName("tablets");
+		 
+		Amazon.addProductName("speakers");
+		 
+		Amazon.addProductName(" washing machine");
+		 
+		Amazon.addProductName("projectors");
+		 
+		Amazon.addProductName("tv");
+		 
+		Amazon.addProductName("DVD players");
+		 
+		Amazon.addProductName("chargers");
+		 
+		Amazon.readProductNames();
 		
-		AmazonProducts.readProductNames();
+		Amazon.updateProductName("mobile" , "tablets" );
+		
+		Amazon.readProductNames();
+		
+		Amazon.deleteProductName("tv");
+		
+		Amazon.readProductNames();
 		
 		System.out.println("Main ended");
 	}

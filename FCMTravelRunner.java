@@ -3,28 +3,36 @@ class FCMTravelRunner{
 	public static void main(String[] place){
 		System.out.println("Main started");
 	
-		boolean addPlace = FCMTravel.addPlaceName("Maldives");
+		FCMTravel.addPlaceName("coorg");
 		 
-		addPlace = FCMTravel.addPlaceName("Goa");
+		FCMTravel.addPlaceName("chikmagaluru");
 		 
-		addPlace = FCMTravel.addPlaceName("USA");
+		FCMTravel.addPlaceName("mysore");
 		 
-		addPlace = FCMTravel.addPlaceName("Singapore");
+		FCMTravel.addPlaceName("nandi hills");
 		 
-		addPlace = FCMTravel.addPlaceName("Malesia");
+		FCMTravel.addPlaceName("mangalore");
 		 
-		addPlace = FCMTravel.addPlaceName("Baali");
+		FCMTravel.addPlaceName("hampi");
 		 
-		addPlace = FCMTravel.addPlaceName("Tirkey");
+		FCMTravel.addPlaceName("murudeshwar");
 		 
-		addPlace = FCMTravel.addPlaceName("Coorge");
+		FCMTravel.addPlaceName("sakleshpur");
 		 
-		addPlace = FCMTravel.addPlaceName("Netherland");
+		FCMTravel.addPlaceName("bidar");
 		 
-		addPlace = FCMTravel.addPlaceName("Malesia");
+		FCMTravel.addPlaceName("hoskote");
 		 
-		addPlace = FCMTravel.addPlaceName("Japan");
+		FCMTravel.addPlaceName("belgaum");
 		 
+		FCMTravel.readtouristPlaceNames();
+		
+		FCMTravel.updatePlaceName("joga" , "bidar");
+		
+		FCMTravel.readtouristPlaceNames();
+		
+		FCMTravel.deletePlaceName("belgaum");
+		
 		FCMTravel.readtouristPlaceNames();
 		
 		System.out.println("Main ended");
